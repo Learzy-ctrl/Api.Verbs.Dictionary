@@ -34,7 +34,7 @@ namespace Api.Verbs.Dictionary.Aplication
                 {
                     switch (request.verbForm)
                     {
-                        case "Present":
+                        case "Simple":
                             verbDto.verb = verbForms.present;
                             break;
                         case "Past":
